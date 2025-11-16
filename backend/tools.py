@@ -1,5 +1,12 @@
+#backend/tools.py
 # Step1: Setup Ollama with Medgemma tool
 import ollama
+import os
+import json
+import numpy as np
+from sentence_transformers import SentenceTransformer
+import faiss
+
 
 def query_medgemma(prompt: str) -> str:
     """
@@ -54,3 +61,77 @@ def call_emergency():
         url="http://demo.twilio.com/docs/voice.xml"  # Can customize message
     )
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+EMB_DIR = os.path.join(BASE_DIR, "embeddings")
+EMB_FILE = os.path.join(EMB_DIR, "exam_texts.npy")
+META_FILE = os.path.join(EMB_DIR, "exam_meta.json")
+INDEX_FILE = os.path.join(EMB_DIR, "exam_faiss.index")
+
+_embedding_model = None
+_faiss_index = None
+_meta = None
+
+
+def _ensure_index_loaded():
+    global _embedding_model, _faiss_index, _meta
+
+    if _embedding_model is None:
+        _embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+
+    if _faiss_index is None:
+        _faiss_index = faiss.read_index(INDEX_FILE)
+
+    if _meta is None:
+        with open(META_FILE, "r", encoding="utf-8") as f:
+            _meta = json.load(f)
+
+
+def retrieve_exam_contexts(query: str, k: int = 5):
+    _ensure_index_loaded()
+    q_emb = _embedding_model.encode([query], convert_to_numpy=True, normalize_embeddings=True)
+    D, I = _faiss_index.search(q_emb, k)
+
+    results = []
+    for score, idx in zip(D[0], I[0]):
+        item = _meta[idx]
+        results.append({
+            "score": float(score),
+            "instruction": item["instruction"],
+            "response": item["response"]
+        })
+    return results
+
+
+def ask_exam_rag(query: str) -> str:
+    """
+    Retrieves the most relevant exam-stress contexts and sends them to MedGemma for grounded response.
+    """
+    contexts = retrieve_exam_contexts(query, k=5)
+
+    context_text = "\n\n".join(
+        [f"Context {i+1} (score={c['score']:.3f}):\nQ: {c['instruction']}\nA: {c['response']}"
+         for i, c in enumerate(contexts)]
+    )
+
+    system_prompt = """You are Dr. Emily Hartman, a warm clinical psychologist.
+Use the retrieved exam-related contexts to give grounded, supportive, and empathetic guidance.
+Do not mention the retrieval system. Just incorporate the ideas naturally.
+Always ask an open-ended follow-up question.
+"""
+
+    user_msg = (
+        f"Retrieved Contexts:\n{context_text}\n\n"
+        f"User Question: {query}\n\n"
+        f"Respond using the context when relevant."
+    )
+
+    response = ollama.chat(
+        model="alibayram/medgemma:4b",
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_msg}
+        ],
+        options={"temperature": 0.6, "num_predict": 250}
+    )
+
+    return response["message"]["content"]

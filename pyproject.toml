@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "datasets>=4.4.1",
     "fastapi>=0.120.4",
     "langchain>=1.0.3",
     "langchain-core>=1.0.2",
@@ -14,6 +15,7 @@ dependencies = [
     "pydantic>=2.12.3",
     "requests>=2.32.5",
     "streamlit>=1.51.0",
+    "transformers>=4.57.1",
     "twilio>=9.8.5",
     "uvicorn>=0.38.0",
 ]

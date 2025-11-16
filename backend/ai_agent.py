@@ -1,5 +1,7 @@
+#backend/ai_agent.py
 from langchain_core.tools import tool
 from tools import query_medgemma, call_emergency
+from tools import ask_exam_rag
 
 @tool
 def ask_mental_health_specialist(query: str) -> str:
@@ -48,7 +50,12 @@ from langgraph.prebuilt import create_react_agent
 from config import GROQ_API_KEY   # make sure your config contains GROQ_API_KEY
 
 # your tools remain same
-tools = [ask_mental_health_specialist, emergency_call_tool, find_nearby_therapists_by_location]
+tools = [
+    ask_mental_health_specialist,
+    emergency_call_tool,
+    find_nearby_therapists_by_location,
+    ask_exam_rag  # NEW
+]
 
 # Groq LLM client
 llm = ChatGroq(
@@ -67,6 +74,7 @@ You have access to three tools:
 1. `ask_mental_health_specialist`: Use this tool to answer all emotional or psychological queries with therapeutic guidance.
 2. `locate_therapist_tool`: Use this tool if the user asks about nearby therapists or if recommending local professional help would be beneficial.
 3. `emergency_call_tool`: Use this immediately if the user expresses suicidal thoughts, self-harm intentions, or is in crisis.
+4. ask_exam_rag_tool → ALWAYS use this whenever the user asks anything related to exams, academic stress, failure, burnout, studying, results, parents’ pressure, or school pressure.
 
 Always take necessary action. Respond kindly, clearly, and supportively.
 """
@@ -104,3 +112,9 @@ def parse_response(stream):
 #         tool_called_name, final_response = parse_response(stream)
 #         print("TOOL CALLED: ", tool_called_name)
 #         print("ANSWER: ", final_response)
+
+
+@tool
+def ask_exam_rag_tool(query: str) -> str:
+    """Use exam-specific RAG retrieval for exam stress, burnout, and academic anxiety."""
+    return ask_exam_rag(query)

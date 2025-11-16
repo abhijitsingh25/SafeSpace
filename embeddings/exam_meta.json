@@ -1,0 +1,1752 @@
+[
+  {
+    "id": 0,
+    "instruction": "I feel extremely stressed thinking about my upcoming exams.",
+    "response": "Exam stress often builds when a lot of expectations are placed on one moment. Try breaking your preparation into small steps to ease the pressure."
+  },
+  {
+    "id": 1,
+    "instruction": "My hands start shaking every time I think about the exam.",
+    "response": "Physical reactions like shaking can happen when your body feels overwhelmed. Grounding techniques or simple breathing exercises may help you regain control."
+  },
+  {
+    "id": 2,
+    "instruction": "I can’t sleep properly because I keep worrying about failing.",
+    "response": "Sleep often gets disrupted when fear of failure takes over. Writing down your thoughts before bed may help reduce the mental load."
+  },
+  {
+    "id": 3,
+    "instruction": "No matter how much I study, I feel like I’ll forget everything in the exam hall.",
+    "response": "Many people feel this way before exams. Reviewing material in spaced intervals often helps build confidence in memory."
+  },
+  {
+    "id": 4,
+    "instruction": "I feel like I’m not smart enough to pass this exam.",
+    "response": "Doubting your ability is common under pressure. Progress usually depends more on consistent effort than on feeling confident all the time."
+  },
+  {
+    "id": 5,
+    "instruction": "Everyone else seems to be prepared except me.",
+    "response": "It can feel that way, but most students hide their stress. Try focusing on your own pace rather than comparing your progress."
+  },
+  {
+    "id": 6,
+    "instruction": "I keep overthinking what will happen if I fail my exam.",
+    "response": "Overthinking tends to amplify fear. It may help to gently redirect your mind to what is within your control right now."
+  },
+  {
+    "id": 7,
+    "instruction": "I study for hours but nothing stays in my mind.",
+    "response": "When stress rises, retention decreases. Short study intervals with breaks often help information stick better."
+  },
+  {
+    "id": 8,
+    "instruction": "I feel like crying whenever I open my textbook.",
+    "response": "Emotional fatigue can show up as tears. Taking short breaks and easing into your study sessions might reduce the strain."
+  },
+  {
+    "id": 9,
+    "instruction": "I’m scared to even start preparing for my exams.",
+    "response": "Starting can be the hardest part. Beginning with small, manageable tasks often helps reduce the initial fear."
+  },
+  {
+    "id": 10,
+    "instruction": "I failed my last exam and now I feel hopeless.",
+    "response": "Failure can feel heavy, but it doesn’t define your future. Reflecting on what can be changed moving forward may help you regain direction."
+  },
+  {
+    "id": 11,
+    "instruction": "My parents keep pressuring me to score high and I can’t take it.",
+    "response": "External pressure can be overwhelming. It may help to set boundaries and communicate how the pressure affects your focus."
+  },
+  {
+    "id": 12,
+    "instruction": "Even after studying, I feel like I don’t deserve to pass.",
+    "response": "Feeling undeserving often comes from stress rather than ability. Reminding yourself of the effort you've put in might help."
+  },
+  {
+    "id": 13,
+    "instruction": "I can’t handle the pressure from so many subjects.",
+    "response": "Handling multiple subjects can feel intense. A structured timetable might help reduce the workload into more manageable parts."
+  },
+  {
+    "id": 14,
+    "instruction": "My friends are scoring better and I feel like a failure.",
+    "response": "Comparing scores can lower your confidence. Shifting your focus to personal progress may help maintain your motivation."
+  },
+  {
+    "id": 15,
+    "instruction": "My mind keeps going blank when I try to study.",
+    "response": "A blank mind often signals burnout. Pausing to rest may help restore your focus."
+  },
+  {
+    "id": 16,
+    "instruction": "I feel like time is running out and I’m not prepared.",
+    "response": "The sense of running out of time can increase stress. Creating a focused plan for the remaining days may bring clarity."
+  },
+  {
+    "id": 17,
+    "instruction": "I’m losing interest in studying altogether.",
+    "response": "Loss of interest can happen when stress accumulates. Reconnecting with your goals may help revive your motivation."
+  },
+  {
+    "id": 18,
+    "instruction": "I panic every time someone talks about exams.",
+    "response": "Exam talk can trigger anxiety for many students. You might find relief through calming routines before conversations about exams."
+  },
+  {
+    "id": 19,
+    "instruction": "I feel like my life depends on these exam results.",
+    "response": "It’s natural to feel the stakes are high, but no exam defines your entire future. Multiple paths often lead to success."
+  },
+  {
+    "id": 20,
+    "instruction": "I get headaches whenever I study for long hours.",
+    "response": "Headaches can result from mental fatigue. Taking short breaks and staying hydrated may help reduce the discomfort."
+  },
+  {
+    "id": 21,
+    "instruction": "I feel like giving up because exams are too hard.",
+    "response": "Feeling overwhelmed is understandable. Sometimes taking things step by step can make challenges feel more manageable."
+  },
+  {
+    "id": 22,
+    "instruction": "I feel worthless because my scores never improve.",
+    "response": "Low self-worth often comes from harsh self-judgment. Acknowledging small improvements may help shift your mindset."
+  },
+  {
+    "id": 23,
+    "instruction": "I study all day but still feel unprepared.",
+    "response": "Studying without proper breaks can reduce efficiency. Structured intervals may help you retain more."
+  },
+  {
+    "id": 24,
+    "instruction": "I hate myself for not being good enough for exams.",
+    "response": "Self-blame tends to grow under pressure. Offering yourself kindness might improve your focus and resilience."
+  },
+  {
+    "id": 25,
+    "instruction": "I can’t concentrate because I keep thinking about my past failures.",
+    "response": "Past setbacks can cloud current thinking. Staying present with what you can do now may help ease the load."
+  },
+  {
+    "id": 26,
+    "instruction": "Whenever I sit to study, I feel a heavy weight on my chest.",
+    "response": "A heavy feeling can be a sign of stress. Slow breathing or grounding yourself may help your body relax."
+  },
+  {
+    "id": 27,
+    "instruction": "Studying feels impossible right now.",
+    "response": "When things feel impossible, starting with very small tasks may help you regain momentum."
+  },
+  {
+    "id": 28,
+    "instruction": "I get nervous even writing practice tests.",
+    "response": "Practice tests can trigger performance anxiety. Gradual exposure may help build comfort over time."
+  },
+  {
+    "id": 29,
+    "instruction": "I can’t talk to anyone about how stressed I am.",
+    "response": "Keeping everything inside can intensify stress. Opening up to someone you trust might bring some relief."
+  },
+  {
+    "id": 30,
+    "instruction": "I’m scared my exam results will disappoint my family.",
+    "response": "Fear of disappointing loved ones can weigh heavily. Remember that effort matters, even when results aren't perfect."
+  },
+  {
+    "id": 31,
+    "instruction": "I keep losing track of time while worrying about exams.",
+    "response": "Worry can be time-consuming. Gentle time management strategies may help create more balance."
+  },
+  {
+    "id": 32,
+    "instruction": "I’m mentally exhausted from studying.",
+    "response": "Mental exhaustion is common during exam periods. Resting intentionally can help restore your energy."
+  },
+  {
+    "id": 33,
+    "instruction": "I want to study but I have no energy left.",
+    "response": "Lack of energy often signals burnout. Taking short breaks or switching tasks may help you restart."
+  },
+  {
+    "id": 34,
+    "instruction": "I feel like I’ll embarrass myself in the exam.",
+    "response": "Fear of embarrassment can heighten anxiety. Reassuring yourself of your preparation may help reduce that fear."
+  },
+  {
+    "id": 35,
+    "instruction": "I always think of the worst-case scenario for my exams.",
+    "response": "Catastrophic thoughts can be distressing. Focusing on what’s realistic and within your control may help ease them."
+  },
+  {
+    "id": 36,
+    "instruction": "Studying makes me feel stressed rather than productive.",
+    "response": "Stress can overshadow productivity. Changing your study style or environment might make it feel lighter."
+  },
+  {
+    "id": 37,
+    "instruction": "The pressure to top the class is too much for me.",
+    "response": "High expectations can feel overwhelming. Focusing on learning rather than ranking may help ease the tension."
+  },
+  {
+    "id": 38,
+    "instruction": "I feel anxious every morning because of exams.",
+    "response": "Morning anxiety is common during stressful times. Establishing a gentle routine might help calm your start to the day."
+  },
+  {
+    "id": 39,
+    "instruction": "I dread checking my marks after every test.",
+    "response": "Anticipating results can be stressful. Reminding yourself that one score doesn’t define you may help soften the fear."
+  },
+  {
+    "id": 40,
+    "instruction": "My study schedule is falling apart and I feel hopeless.",
+    "response": "Schedules can slip under pressure. Rebuilding a simple plan may help you regain direction."
+  },
+  {
+    "id": 41,
+    "instruction": "I feel nauseous when I think about exams.",
+    "response": "Nausea can be a physical sign of anxiety. Slow breathing or grounding might help ease your body’s response."
+  },
+  {
+    "id": 42,
+    "instruction": "Nothing motivates me to study anymore.",
+    "response": "Lack of motivation often stems from exhaustion. Revisiting your goals or taking a break might help reset your mindset."
+  },
+  {
+    "id": 43,
+    "instruction": "I can’t handle the competition in my class.",
+    "response": "Competition can intensify stress. Focusing on your personal progress rather than comparison may bring relief."
+  },
+  {
+    "id": 44,
+    "instruction": "I feel lost because I don’t know where to start preparing.",
+    "response": "Feeling lost is common. Starting with a small, structured study plan can help things feel more organized."
+  },
+  {
+    "id": 45,
+    "instruction": "I’m scared I will fail despite preparing well.",
+    "response": "Fear can linger even with good preparation. Trusting your efforts might help build confidence."
+  },
+  {
+    "id": 46,
+    "instruction": "I feel alone because no one understands my exam pressure.",
+    "response": "Feeling isolated under stress is natural. You might find comfort by sharing your concerns with someone you trust."
+  },
+  {
+    "id": 47,
+    "instruction": "I get overwhelmed when I look at the syllabus.",
+    "response": "Large syllabi can feel intimidating. Breaking it into smaller chunks may make it more manageable."
+  },
+  {
+    "id": 48,
+    "instruction": "I feel constant pressure to perform academically.",
+    "response": "Continuous pressure can be draining. Taking time to rest may help preserve your energy."
+  },
+  {
+    "id": 49,
+    "instruction": "I’m scared my brain will freeze during the exam.",
+    "response": "Many students fear freezing up. Practicing calm breathing might help you stay steady under pressure."
+  },
+  {
+    "id": 50,
+    "instruction": "I’m tired of studying all day with no results.",
+    "response": "Studying nonstop can reduce effectiveness. Short breaks may help improve focus and retention."
+  },
+  {
+    "id": 51,
+    "instruction": "I feel like crying every night thinking about exams.",
+    "response": "Emotional tension often peaks at night. A calming bedtime routine might help reduce the intensity."
+  },
+  {
+    "id": 52,
+    "instruction": "I feel numb and disconnected because of exam stress.",
+    "response": "Numbness can be a sign of overwhelm. Taking things slowly may help bring you back to balance."
+  },
+  {
+    "id": 53,
+    "instruction": "I get disappointed in myself after every mock test.",
+    "response": "Mock tests are for practice, not perfection. Using them as learning tools may help ease self-criticism."
+  },
+  {
+    "id": 54,
+    "instruction": "I’ve lost confidence in my ability to study.",
+    "response": "Confidence often fluctuates. Focusing on what you can manage today might help rebuild it."
+  },
+  {
+    "id": 55,
+    "instruction": "I always feel like I’m behind others.",
+    "response": "Feeling behind is common in competitive settings. Setting personal goals may help create clarity."
+  },
+  {
+    "id": 56,
+    "instruction": "I can’t study because I keep thinking about consequences.",
+    "response": "Consequences can dominate your thoughts. Redirecting your focus toward manageable tasks might help reduce anxiety."
+  },
+  {
+    "id": 57,
+    "instruction": "I feel anxious even when I’m not studying.",
+    "response": "Lingering anxiety can happen during exam season. Establishing small relaxation breaks may help calm your mind."
+  },
+  {
+    "id": 58,
+    "instruction": "I’m scared of disappointing myself in exams.",
+    "response": "Self-disappointment can feel heavy. Acknowledging your efforts might help ease the pressure."
+  },
+  {
+    "id": 59,
+    "instruction": "I feel mentally drained after studying very little.",
+    "response": "Being drained quickly can indicate burnout. Gentle pacing may help restore your capacity."
+  },
+  {
+    "id": 60,
+    "instruction": "I feel like I’ll never get the marks I want.",
+    "response": "Expectations can sometimes feel out of reach. Breaking down goals into smaller steps may help them feel more attainable."
+  },
+  {
+    "id": 61,
+    "instruction": "I get frustrated because I study but forget everything.",
+    "response": "Forgetfulness can increase with stress. Reviewing in shorter intervals may support better memory."
+  },
+  {
+    "id": 62,
+    "instruction": "I’m scared to ask doubts because others might think I'm dumb.",
+    "response": "Many students feel hesitant asking questions. Remember, clarifying concepts often improves confidence."
+  },
+  {
+    "id": 63,
+    "instruction": "I feel like exams are ruining my peace.",
+    "response": "Intense exam periods can disturb your balance. Taking periodic breaks may help you regain calm."
+  },
+  {
+    "id": 64,
+    "instruction": "My heart races every time I think of exam day.",
+    "response": "A racing heart is a common anxiety response. Slow breathing might help regulate that sensation."
+  },
+  {
+    "id": 65,
+    "instruction": "I don’t feel capable of handling exam stress anymore.",
+    "response": "Feeling unable to cope is natural during high-pressure times. Taking things step by step may help reduce the load."
+  },
+  {
+    "id": 66,
+    "instruction": "I’m tired of pretending everything is fine during exam season.",
+    "response": "Keeping up appearances can be exhausting. Sharing your feelings with someone you trust might be helpful."
+  },
+  {
+    "id": 67,
+    "instruction": "Exams make me feel trapped.",
+    "response": "Feeling trapped often comes from high expectations. Breaking tasks into smaller goals may help restore a sense of control."
+  },
+  {
+    "id": 68,
+    "instruction": "I feel like I’m constantly failing even before the exam.",
+    "response": "Anticipatory thoughts can intensify fear. Staying focused on your present progress might help ease worries."
+  },
+  {
+    "id": 69,
+    "instruction": "I can’t study because my mind refuses to focus.",
+    "response": "Mental resistance can signal overwhelm. A brief reset may help prepare your mind to try again."
+  },
+  {
+    "id": 70,
+    "instruction": "I feel like no matter how much I study, it’s never enough.",
+    "response": "The feeling of never doing enough often comes from internal pressure rather than actual performance. Setting realistic limits might help you measure your progress more calmly."
+  },
+  {
+    "id": 71,
+    "instruction": "I keep zoning out while studying for exams.",
+    "response": "Zoning out can happen when your mind is overloaded. Short breaks may help refresh your attention."
+  },
+  {
+    "id": 72,
+    "instruction": "I’m scared I’ll forget everything during the exam.",
+    "response": "Forgetting under pressure is a common fear. Practicing calm breathing might help you stay steady while recalling information."
+  },
+  {
+    "id": 73,
+    "instruction": "I feel sad because exam pressure is too much to handle.",
+    "response": "Sadness can build when stress feels overwhelming. Taking small moments to rest may help lighten the emotional load."
+  },
+  {
+    "id": 74,
+    "instruction": "I can’t enjoy anything because exams are always on my mind.",
+    "response": "Continuous worry can overshadow daily activities. Scheduling study time and break time might help create balance."
+  },
+  {
+    "id": 75,
+    "instruction": "I get irritated easily while studying for exams.",
+    "response": "Irritability often signals fatigue. Pausing to reset may help restore your focus."
+  },
+  {
+    "id": 76,
+    "instruction": "I feel like exams are controlling my entire life.",
+    "response": "Feeling controlled by exams is common under heavy workloads. Re-establishing small routines might help you feel more grounded."
+  },
+  {
+    "id": 77,
+    "instruction": "I’m scared I won’t meet my own expectations.",
+    "response": "Personal expectations can be tough to manage. Breaking goals into smaller parts might make them more achievable."
+  },
+  {
+    "id": 78,
+    "instruction": "I feel anxious even when I think about opening my books.",
+    "response": "Anxiety can appear before studying begins. Starting with very small tasks may help ease you into the flow."
+  },
+  {
+    "id": 79,
+    "instruction": "I can’t stop imagining the worst possible exam outcome.",
+    "response": "Worst-case thinking is natural but draining. Redirecting your focus to what you can control may help."
+  },
+  {
+    "id": 80,
+    "instruction": "I feel depressed because I keep failing mock tests.",
+    "response": "Repeated poor results can be discouraging. Using mock tests as learning tools might help shift your perspective."
+  },
+  {
+    "id": 81,
+    "instruction": "I feel like running away from everything because of exams.",
+    "response": "Wanting to escape pressure is a common response to overwhelm. Taking a moment to breathe may help create some mental space."
+  },
+  {
+    "id": 82,
+    "instruction": "I don’t feel confident about any subject.",
+    "response": "Confidence fluctuates under stress. Reviewing small portions may help you feel more prepared gradually."
+  },
+  {
+    "id": 83,
+    "instruction": "I get anxious when teachers announce test dates.",
+    "response": "Announcements can trigger stress. Preparing a simple plan might help ease the anxiety."
+  },
+  {
+    "id": 84,
+    "instruction": "My concentration is getting worse the closer exams get.",
+    "response": "Concentration often drops with rising pressure. Short study sessions may help maintain focus."
+  },
+  {
+    "id": 85,
+    "instruction": "I feel like crying during study sessions.",
+    "response": "Tears often reflect emotional overload. Taking short breaks might help you reset."
+  },
+  {
+    "id": 86,
+    "instruction": "I’m scared my mind will go blank during the exam.",
+    "response": "Blank moments happen to many students. Practicing grounding techniques may help bring your focus back."
+  },
+  {
+    "id": 87,
+    "instruction": "I feel guilty when I take breaks from studying.",
+    "response": "Guilt around breaks is common but unnecessary. Rest helps improve learning and should be part of your routine."
+  },
+  {
+    "id": 88,
+    "instruction": "I feel overwhelmed because my syllabus is too big.",
+    "response": "Large syllabi can feel intimidating. Splitting it into manageable chunks may help reduce the pressure."
+  },
+  {
+    "id": 89,
+    "instruction": "I’m scared that my exam performance will affect my future.",
+    "response": "It's natural to worry about the future, but one exam rarely defines everything. Focusing on what you can do now may help."
+  },
+  {
+    "id": 90,
+    "instruction": "I can’t stop comparing my preparation with others.",
+    "response": "Comparisons increase stress. Focusing on your own progress might help lighten the pressure."
+  },
+  {
+    "id": 91,
+    "instruction": "I feel exhausted even before I start studying.",
+    "response": "Pre-study fatigue can signal burnout. Easing into small tasks might help rebuild your momentum."
+  },
+  {
+    "id": 92,
+    "instruction": "My parents expect too much from me during exam season.",
+    "response": "High expectations can feel heavy. It might help to communicate your challenges with them gently."
+  },
+  {
+    "id": 93,
+    "instruction": "I feel like I don’t have enough time to prepare.",
+    "response": "Time pressure is a common concern. Prioritizing topics may help make better use of your time."
+  },
+  {
+    "id": 94,
+    "instruction": "Studying makes me feel emotionally drained.",
+    "response": "Emotional drain often comes from prolonged stress. Short breaks could help restore your balance."
+  },
+  {
+    "id": 95,
+    "instruction": "I feel like exams are consuming my mental peace.",
+    "response": "Exam pressure can easily overwhelm your peace. Scheduling small relaxation moments may help maintain balance."
+  },
+  {
+    "id": 96,
+    "instruction": "I get scared when I think about revision.",
+    "response": "Revision can feel daunting. Breaking it into small repeatable steps may make it easier."
+  },
+  {
+    "id": 97,
+    "instruction": "I feel stuck no matter how much I study.",
+    "response": "Feeling stuck is common when pressure is high. Changing your approach slightly might help create new momentum."
+  },
+  {
+    "id": 98,
+    "instruction": "I’m worried I won’t remember anything when needed.",
+    "response": "Worry often makes memory feel unreliable. Practicing spaced repetition might help strengthen recall."
+  },
+  {
+    "id": 99,
+    "instruction": "I feel depressed thinking about my low grades.",
+    "response": "Low grades can affect how you feel about yourself. Remember, grades reflect a moment, not your worth."
+  },
+  {
+    "id": 100,
+    "instruction": "I feel anxious while planning my study schedule.",
+    "response": "Planning can feel overwhelming. Starting with a simple list may help reduce the pressure."
+  },
+  {
+    "id": 101,
+    "instruction": "I’m scared my hard work won’t pay off.",
+    "response": "Fear of wasted effort is normal under pressure. Trusting your process may help build confidence."
+  },
+  {
+    "id": 102,
+    "instruction": "I get headaches due to exam stress.",
+    "response": "Stress-related headaches are common. Hydration and breaks can help ease the tension."
+  },
+  {
+    "id": 103,
+    "instruction": "I feel like my brain is overloaded from studying.",
+    "response": "Mental overload often appears when you push too hard. A short pause might help clear your mind."
+  },
+  {
+    "id": 104,
+    "instruction": "I’m stressed because I can’t finish my syllabus on time.",
+    "response": "Falling behind happens. Prioritizing important topics may help manage the remaining time."
+  },
+  {
+    "id": 105,
+    "instruction": "I feel down every time I look at my notes.",
+    "response": "Feeling low when studying is common. A change in environment or technique might help refresh your mindset."
+  },
+  {
+    "id": 106,
+    "instruction": "I get nervous when my friends talk about their preparation.",
+    "response": "Hearing others' progress can trigger anxiety. Focusing on your own journey may ease the tension."
+  },
+  {
+    "id": 107,
+    "instruction": "I feel pressure to perform better than my classmates.",
+    "response": "Competition can heighten stress. Setting personal goals might help you stay grounded."
+  },
+  {
+    "id": 108,
+    "instruction": "I’m scared I’ll forget formulas during the exam.",
+    "response": "Forgetting formulas is a common fear. Repetition in small intervals may help reinforce memory."
+  },
+  {
+    "id": 109,
+    "instruction": "I feel stressed because my preparation is not consistent.",
+    "response": "Inconsistency is normal during stressful times. Restarting with small daily goals might help build rhythm."
+  },
+  {
+    "id": 110,
+    "instruction": "I get chest tightness when thinking about exams.",
+    "response": "Chest tightness can be a physical response to anxiety. Slow, deep breathing may help relax your body."
+  },
+  {
+    "id": 111,
+    "instruction": "I feel hopeless about improving my marks.",
+    "response": "Hopelessness often grows from repeated stress. Breaking your study into achievable tasks might help rebuild hope."
+  },
+  {
+    "id": 112,
+    "instruction": "I can’t stop overthinking about what might go wrong.",
+    "response": "Overthinking can drain your energy. Bringing attention back to the present task may help."
+  },
+  {
+    "id": 113,
+    "instruction": "I feel tired even after sleeping because of exam stress.",
+    "response": "Stress can affect sleep quality. A calming routine might help settle your mind before bed."
+  },
+  {
+    "id": 114,
+    "instruction": "I feel like everyone expects me to perform perfectly.",
+    "response": "Perfection expectations can create pressure. Allowing yourself to be human may ease the burden."
+  },
+  {
+    "id": 115,
+    "instruction": "I keep losing focus because I’m scared of the exam.",
+    "response": "Fear disrupts concentration easily. Grounding yourself may help stabilize your attention."
+  },
+  {
+    "id": 116,
+    "instruction": "I feel unmotivated no matter how hard I try.",
+    "response": "Motivation can drop during stressful periods. Revisiting your goals might help reignite purpose."
+  },
+  {
+    "id": 117,
+    "instruction": "I get stressed when I see the number of chapters I need to cover.",
+    "response": "Seeing everything at once can feel overwhelming. Breaking it down may make it more manageable."
+  },
+  {
+    "id": 118,
+    "instruction": "I feel like exams bring out the worst in me.",
+    "response": "Feeling this way is common during pressure. Recognizing your efforts may help lighten the emotional strain."
+  },
+  {
+    "id": 119,
+    "instruction": "I’m scared I’ll disappoint my teachers.",
+    "response": "Wanting to meet expectations is natural. Remember, one exam doesn’t define your relationship with them."
+  },
+  {
+    "id": 120,
+    "instruction": "I feel stressed because my revision is going too slowly.",
+    "response": "Slow revision happens under stress. Prioritizing key topics may help create momentum."
+  },
+  {
+    "id": 121,
+    "instruction": "I can’t stop thinking about what will happen if I fail.",
+    "response": "Fear of failure can be consuming. Focusing on what you can control today might help ease it."
+  },
+  {
+    "id": 122,
+    "instruction": "I feel emotionally drained after each study session.",
+    "response": "Draining study sessions often indicate fatigue. Taking intentional breaks can help restore balance."
+  },
+  {
+    "id": 123,
+    "instruction": "I get nervous when I think about writing long answers.",
+    "response": "Writing can feel intimidating. Practicing gradually might help build confidence."
+  },
+  {
+    "id": 124,
+    "instruction": "I feel depressed when I compare my scores to others.",
+    "response": "Comparisons can intensify sadness. Focusing on personal growth may help shift your perspective."
+  },
+  {
+    "id": 125,
+    "instruction": "I’m scared I won’t achieve the marks my parents want.",
+    "response": "Fear of expectations can feel heavy. Remember that effort matters more than perfection."
+  },
+  {
+    "id": 126,
+    "instruction": "I feel like everything depends on this one exam.",
+    "response": "It’s easy to feel that way, but no exam alone determines your entire path. Many opportunities lie ahead."
+  },
+  {
+    "id": 127,
+    "instruction": "I feel like my mind stops working when I see exam questions.",
+    "response": "Stress can momentarily block your thinking. Deep breaths might help your mind reset."
+  },
+  {
+    "id": 128,
+    "instruction": "I feel hopeless because revision feels endless.",
+    "response": "Endless revision can feel discouraging. Breaking it into small, timed intervals might help."
+  },
+  {
+    "id": 129,
+    "instruction": "I can’t manage the stress from back-to-back exams.",
+    "response": "Back-to-back exams can intensify pressure. Resting briefly between sessions may help maintain energy."
+  },
+  {
+    "id": 130,
+    "instruction": "I’m scared I won’t finish the paper on time.",
+    "response": "Timing concerns are common. Practicing with a timer might help you gauge your pace."
+  },
+  {
+    "id": 131,
+    "instruction": "I feel anxious before every study session.",
+    "response": "Pre-study anxiety happens to many. Starting with a gentle warm-up may help ease you into it."
+  },
+  {
+    "id": 132,
+    "instruction": "I feel like crying after checking my marks.",
+    "response": "Marks can trigger strong emotions. Viewing them as feedback rather than judgment may help soften the impact."
+  },
+  {
+    "id": 133,
+    "instruction": "I can’t concentrate because of fear of failing.",
+    "response": "Fear can disrupt focus. Grounding yourself in small tasks may help regain concentration."
+  },
+  {
+    "id": 134,
+    "instruction": "My heart beats fast when I revise tough topics.",
+    "response": "Difficult topics can provoke anxiety. Approaching them slowly may ease the tension."
+  },
+  {
+    "id": 135,
+    "instruction": "I feel scared because my syllabus is not completed.",
+    "response": "Incomplete syllabus is a common worry. Prioritizing key chapters may help manage your time better."
+  },
+  {
+    "id": 136,
+    "instruction": "I feel mentally stuck because exams are too close.",
+    "response": "As exams approach, mental blocks can happen. Taking a short break might help refresh your mind."
+  },
+  {
+    "id": 137,
+    "instruction": "I’m worried I’ll freeze during the viva exam.",
+    "response": "Vivas can feel intimidating. Practicing aloud may help you feel more prepared."
+  },
+  {
+    "id": 138,
+    "instruction": "I feel stressed because I can’t memorize anything.",
+    "response": "Memorization gets harder under stress. Spaced repetition may help information stick more effectively."
+  },
+  {
+    "id": 139,
+    "instruction": "I feel like studying is pointless because I’ll fail anyway.",
+    "response": "This thought often appears under extreme stress. Starting small might help rebuild your confidence."
+  },
+  {
+    "id": 140,
+    "instruction": "I feel anxious because everyone around me is studying harder.",
+    "response": "It’s easy to assume others are doing more, but everyone has their own struggles. Focusing on your personal pace may help reduce stress."
+  },
+  {
+    "id": 141,
+    "instruction": "I’m scared I won’t understand anything even after revising.",
+    "response": "Sometimes stress blocks understanding. Revisiting topics slowly might help them make more sense."
+  },
+  {
+    "id": 142,
+    "instruction": "I feel guilty when I don’t study for a day.",
+    "response": "Guilt often appears under pressure, but taking a day off can be necessary for recovery."
+  },
+  {
+    "id": 143,
+    "instruction": "My mind races whenever I think about exam dates.",
+    "response": "Racing thoughts are a common anxiety response. Slow breathing might help ground you."
+  },
+  {
+    "id": 144,
+    "instruction": "I feel like I’m fighting a losing battle with my studies.",
+    "response": "This feeling often arises when expectations feel too high. Taking things step by step may help you regain balance."
+  },
+  {
+    "id": 145,
+    "instruction": "I can’t stop thinking about what will happen if I mess up my exams.",
+    "response": "Worrying about negative outcomes is natural. Bringing your focus to what you can do now may ease the fear."
+  },
+  {
+    "id": 146,
+    "instruction": "I get overwhelmed when my teachers give extra assignments before exams.",
+    "response": "Extra tasks can intensify stress. Prioritizing what’s essential might help you manage better."
+  },
+  {
+    "id": 147,
+    "instruction": "I feel exhausted because my study sessions are too long.",
+    "response": "Long study sessions can drain your energy. Shorter, focused intervals might help you retain more."
+  },
+  {
+    "id": 148,
+    "instruction": "I’m scared of making silly mistakes in the exam.",
+    "response": "Fear of small mistakes is common. Practicing under timed conditions may help build confidence."
+  },
+  {
+    "id": 149,
+    "instruction": "I feel depressed every time results season comes around.",
+    "response": "Results can stir heavy emotions. Remember that one set of scores doesn’t define your abilities."
+  },
+  {
+    "id": 150,
+    "instruction": "I feel like I’m lagging behind all my classmates.",
+    "response": "Feeling behind is common in exam season. Creating a simple plan may help you regain direction."
+  },
+  {
+    "id": 151,
+    "instruction": "I lose motivation whenever I think about studying.",
+    "response": "Motivation dips can stem from fatigue. Starting with easy tasks may help ease you into it."
+  },
+  {
+    "id": 152,
+    "instruction": "I’m afraid my efforts won’t be enough.",
+    "response": "Fear of inadequacy is common under pressure. Appreciating your progress might help reduce this worry."
+  },
+  {
+    "id": 153,
+    "instruction": "I feel stressed because I can’t revise fast enough.",
+    "response": "Speed isn’t always the key; consistency matters more. Small, steady progress can still be effective."
+  },
+  {
+    "id": 154,
+    "instruction": "I get nervous when I see my classmates solving difficult questions easily.",
+    "response": "Seeing others excel can trigger anxiety. Focusing on your personal improvement may help calm your mind."
+  },
+  {
+    "id": 155,
+    "instruction": "I can’t stop checking the time while studying.",
+    "response": "Constantly checking the time can increase stress. Studying in set intervals might help reduce the pressure."
+  },
+  {
+    "id": 156,
+    "instruction": "I feel drained from constant test preparation.",
+    "response": "Frequent preparation can be exhausting. Taking mindful breaks may help you recharge."
+  },
+  {
+    "id": 157,
+    "instruction": "I’m scared I won’t remember concepts during the exam.",
+    "response": "Forgetfulness under pressure is common. Reviewing information periodically may help strengthen memory."
+  },
+  {
+    "id": 158,
+    "instruction": "I feel lost when I look at the exam timetable.",
+    "response": "Exam schedules can feel overwhelming. Organizing your preparation around them may bring clarity."
+  },
+  {
+    "id": 159,
+    "instruction": "I get anxious when I think about the difficulty level of the paper.",
+    "response": "Thinking ahead about difficulty can increase stress. Focusing on preparation rather than predictions may help."
+  },
+  {
+    "id": 160,
+    "instruction": "I feel scared because I’ve wasted too much time already.",
+    "response": "Lost time can create worry, but starting now can still make a difference. Small steps count."
+  },
+  {
+    "id": 161,
+    "instruction": "I feel frustrated with myself for not understanding topics quickly.",
+    "response": "Understanding takes time, especially under stress. Patient learning may help reduce frustration."
+  },
+  {
+    "id": 162,
+    "instruction": "I feel unprepared even though I’ve been studying for weeks.",
+    "response": "Feeling unprepared is common before exams. Reviewing what you already know may help boost confidence."
+  },
+  {
+    "id": 163,
+    "instruction": "I get anxious thinking about the number of chapters left.",
+    "response": "Looking at everything at once can be overwhelming. Breaking it down may help you proceed calmly."
+  },
+  {
+    "id": 164,
+    "instruction": "I feel mentally stuck after studying for a short time.",
+    "response": "Mental blocks often come from stress. Switching topics briefly might help reset your thinking."
+  },
+  {
+    "id": 165,
+    "instruction": "I’m scared of disappointing myself if I don’t score well.",
+    "response": "Self-expectations can be difficult to manage. Recognizing your efforts might ease the pressure."
+  },
+  {
+    "id": 166,
+    "instruction": "I feel depressed after every study session.",
+    "response": "Heavy emotions after studying can indicate burnout. Taking a moment to pause might help."
+  },
+  {
+    "id": 167,
+    "instruction": "I get stressed when I think about how much is left to revise.",
+    "response": "Seeing the remaining syllabus can raise anxiety. Prioritizing essential topics might help manage the load."
+  },
+  {
+    "id": 168,
+    "instruction": "I feel anxious because I don’t understand everything perfectly.",
+    "response": "Perfection is rarely achievable. Focusing on understanding key concepts may help reduce pressure."
+  },
+  {
+    "id": 169,
+    "instruction": "I feel hopeless because exams never seem to end.",
+    "response": "Continuous exams can be exhausting. Building in small recovery periods may help manage the stress."
+  },
+  {
+    "id": 170,
+    "instruction": "I’m scared that one bad exam will ruin everything.",
+    "response": "It’s common to fear that one exam determines everything, but your path is made of many steps, not just one."
+  },
+  {
+    "id": 171,
+    "instruction": "I feel overwhelmed because everyone expects me to score high.",
+    "response": "Expectations can weigh heavily. Slowing down and setting your own boundaries may help ease the strain."
+  },
+  {
+    "id": 172,
+    "instruction": "I get anxious when I think about writing the exam in a hall full of students.",
+    "response": "Exam halls can feel intimidating. Familiarizing yourself with the process might help reduce the fear."
+  },
+  {
+    "id": 173,
+    "instruction": "I feel stressed because I’m not as fast as others at solving questions.",
+    "response": "Everyone learns at their own pace. Improving your technique gradually may help build confidence."
+  },
+  {
+    "id": 174,
+    "instruction": "I feel nervous because the exam syllabus seems endless.",
+    "response": "A large syllabus can feel endless. Breaking it into sections may help things feel more manageable."
+  },
+  {
+    "id": 175,
+    "instruction": "I can’t stay calm when teachers discuss difficult topics.",
+    "response": "Difficult topics can trigger stress. Asking small questions might help you feel more in control."
+  },
+  {
+    "id": 176,
+    "instruction": "I feel drained thinking about the amount of revision left.",
+    "response": "Thinking about large amounts of revision can be tiring. Taking one topic at a time may make it feel lighter."
+  },
+  {
+    "id": 177,
+    "instruction": "I’m scared I’ll blank out when I see the first question.",
+    "response": "Blanking out happens to many students. Practicing grounding techniques may help steady your mind."
+  },
+  {
+    "id": 178,
+    "instruction": "I feel depressed because studying feels like a burden.",
+    "response": "When studying feels heavy, it may help to break tasks into small, manageable parts."
+  },
+  {
+    "id": 179,
+    "instruction": "I get stressed whenever my friends discuss their study plans.",
+    "response": "Hearing about others' plans can create pressure. Staying focused on your routine may help reduce anxiety."
+  },
+  {
+    "id": 180,
+    "instruction": "I feel like giving up because exams feel too difficult.",
+    "response": "Exams can feel overwhelming. Taking things one step at a time might help you regain confidence."
+  },
+  {
+    "id": 181,
+    "instruction": "I feel guilty when I take time to relax during exam season.",
+    "response": "Relaxation is part of healthy preparation. Rest allows your mind to process and store information better."
+  },
+  {
+    "id": 182,
+    "instruction": "I’m anxious because I can’t revise fast enough.",
+    "response": "Revision speed varies for everyone. Focusing on consistent progress may help reduce pressure."
+  },
+  {
+    "id": 183,
+    "instruction": "I feel stressed when teachers compare students’ performance.",
+    "response": "Comparisons can be discouraging. Remember that progress looks different for everyone."
+  },
+  {
+    "id": 184,
+    "instruction": "I feel drained thinking about starting another study session.",
+    "response": "Feeling drained can be a sign of burnout. A short mental break might help you return with more clarity."
+  },
+  {
+    "id": 185,
+    "instruction": "I’m scared I won’t complete the exam paper.",
+    "response": "Time pressure is a common worry. Practicing with timed exercises may help you manage your pace."
+  },
+  {
+    "id": 186,
+    "instruction": "I feel anxious because I’m unable to stay consistent.",
+    "response": "Consistency can be difficult during stressful times. Restarting gently may help rebuild your rhythm."
+  },
+  {
+    "id": 187,
+    "instruction": "I get stressed when thinking about scoring passing marks.",
+    "response": "Passing concerns can feel intense. Focusing on understanding concepts may help boost your performance."
+  },
+  {
+    "id": 188,
+    "instruction": "I feel hopeless after seeing my previous exam performance.",
+    "response": "Past results can be discouraging, but they don’t define your potential. Progress happens one step at a time."
+  },
+  {
+    "id": 189,
+    "instruction": "I feel overwhelmed because I haven’t started revision seriously.",
+    "response": "Starting late can cause anxiety, but beginning with small chunks may help you build momentum."
+  },
+  {
+    "id": 190,
+    "instruction": "I’m scared to check my previous test results.",
+    "response": "Results can trigger stress. Remember they are meant to guide your preparation, not define you."
+  },
+  {
+    "id": 191,
+    "instruction": "I feel depressed because I think I study slower than others.",
+    "response": "Study speed differs for everyone. Understanding deeply often matters more than speed."
+  },
+  {
+    "id": 192,
+    "instruction": "I get anxious when I think about sitting for long hours during exams.",
+    "response": "Long exam sessions can feel intimidating. Preparing with timed mock tests may help you adjust."
+  },
+  {
+    "id": 193,
+    "instruction": "I feel guilty for taking breaks even when I need them.",
+    "response": "Breaks are essential for long-term productivity. Refreshing your mind may actually improve your performance."
+  },
+  {
+    "id": 194,
+    "instruction": "I’m stressed because I don’t remember what I studied yesterday.",
+    "response": "Memory slips are common under pressure. Revisiting key points briefly may help reinforce them."
+  },
+  {
+    "id": 195,
+    "instruction": "I feel discouraged because I can’t finish even half the syllabus.",
+    "response": "Large syllabi can be overwhelming. Prioritizing important chapters may help manage your time."
+  },
+  {
+    "id": 196,
+    "instruction": "I’m scared I’ll forget everything on the exam morning.",
+    "response": "Morning anxiety can affect memory. Preparing lightly the day before may help you stay calm."
+  },
+  {
+    "id": 197,
+    "instruction": "I feel mentally tired thinking about continuous exams.",
+    "response": "Continuous exams can drain your mental strength. Short restorative activities might help."
+  },
+  {
+    "id": 198,
+    "instruction": "I get nervous hearing others talk about how easy the exam will be.",
+    "response": "Such conversations can create pressure. Focusing on your preparation may help reduce the anxiety."
+  },
+  {
+    "id": 199,
+    "instruction": "I feel like crying because I haven’t prepared well.",
+    "response": "Feeling emotional before exams is common. Starting small may help you regain a sense of control."
+  },
+  {
+    "id": 200,
+    "instruction": "I feel hopeless because this exam seems too difficult for me.",
+    "response": "Difficulty often feels greater under stress. Tackling one part at a time may help things feel more manageable."
+  },
+  {
+    "id": 201,
+    "instruction": "I’m anxious that I will run out of time during revision.",
+    "response": "Time anxiety is natural. Setting short, focused study intervals may help you use your time effectively."
+  },
+  {
+    "id": 202,
+    "instruction": "I get stressed because I don’t understand concepts as fast as my peers.",
+    "response": "Everyone learns at their own pace. Understanding well is more important than learning quickly."
+  },
+  {
+    "id": 203,
+    "instruction": "I feel tired of studying the same topics again and again.",
+    "response": "Repetition can feel exhausting. Changing your study method might make revision more engaging."
+  },
+  {
+    "id": 204,
+    "instruction": "I’m scared that I’ll disappoint myself with bad results.",
+    "response": "Self-disappointment is a tough feeling. Reminding yourself of your efforts may help soften the fear."
+  },
+  {
+    "id": 205,
+    "instruction": "I feel anxious when exams are just a few days away.",
+    "response": "Anxiety rises as exams approach. Structuring your days simply may help you stay grounded."
+  },
+  {
+    "id": 206,
+    "instruction": "I feel like giving up because no matter what I do, I don’t improve.",
+    "response": "Improvement can be slow and gradual. Recognizing even small progress may help rebuild your motivation."
+  },
+  {
+    "id": 207,
+    "instruction": "I get overwhelmed when I revise topics that I’m weak at.",
+    "response": "Weak areas naturally feel more stressful. Focusing on one concept at a time may make them easier to handle."
+  },
+  {
+    "id": 208,
+    "instruction": "I feel scared thinking about viva questions.",
+    "response": "Viva exams can feel intimidating. Practicing answers out loud may help increase your comfort."
+  },
+  {
+    "id": 209,
+    "instruction": "I feel mentally exhausted because I’ve been studying for months.",
+    "response": "Long preparation periods can drain your energy. Taking intentional breaks may help renew your focus."
+  },
+  {
+    "id": 210,
+    "instruction": "I feel overwhelmed thinking about back-to-back competitive exams.",
+    "response": "Back-to-back exams can drain anyone’s energy. Taking things one day at a time may help reduce the burden."
+  },
+  {
+    "id": 211,
+    "instruction": "I can’t focus on anything because exams are constantly in my head.",
+    "response": "When exams dominate your thoughts, it’s hard to concentrate. Short grounding exercises might help create mental space."
+  },
+  {
+    "id": 212,
+    "instruction": "I feel weak whenever I sit down to study.",
+    "response": "Weakness can appear when stress builds up. Gentle pacing may help you ease into studying."
+  },
+  {
+    "id": 213,
+    "instruction": "I’m scared I won’t be able to recall anything during the exam.",
+    "response": "Recall improves with calmness. Practicing slow breathing may help steady your mind."
+  },
+  {
+    "id": 214,
+    "instruction": "I feel depressed because I didn’t perform well in my last exam.",
+    "response": "A disappointing result can weigh heavily. Reflecting on what you can improve moving forward may help you regain confidence."
+  },
+  {
+    "id": 215,
+    "instruction": "I get anxious when teachers discuss exam strategies.",
+    "response": "Strategies can feel overwhelming under pressure. Focusing on what works for you may help reduce stress."
+  },
+  {
+    "id": 216,
+    "instruction": "I feel lost because my preparation is all over the place.",
+    "response": "Disorganized preparation can feel confusing. Creating a simple list may help bring clarity."
+  },
+  {
+    "id": 217,
+    "instruction": "I feel stressed when I compare my preparation with toppers.",
+    "response": "Comparisons can increase pressure. Focusing on your personal progress may help keep your mind steady."
+  },
+  {
+    "id": 218,
+    "instruction": "I feel guilty for not starting my studies earlier.",
+    "response": "Late starts happen to many students. Beginning now with small steps may still bring meaningful progress."
+  },
+  {
+    "id": 219,
+    "instruction": "I’m scared I won’t clear my competitive exams.",
+    "response": "Fear of not clearing exams is common. Breaking your preparation into manageable parts might help reduce anxiety."
+  },
+  {
+    "id": 220,
+    "instruction": "I feel extremely low when I see others studying for long hours.",
+    "response": "Study duration varies for everyone. Quality often matters more than number of hours."
+  },
+  {
+    "id": 221,
+    "instruction": "I get overwhelmed thinking about how quickly exam dates are approaching.",
+    "response": "As dates approach, pressure increases naturally. Scheduling tasks may help you feel more in control."
+  },
+  {
+    "id": 222,
+    "instruction": "I’m scared because I feel underprepared.",
+    "response": "Feeling underprepared is common. Starting with priority topics may help build confidence."
+  },
+  {
+    "id": 223,
+    "instruction": "I feel mentally tired even before starting revision.",
+    "response": "Mental fatigue can appear before tasks begin. Taking a small break might help reset your energy."
+  },
+  {
+    "id": 224,
+    "instruction": "I’m scared to even open my textbooks now.",
+    "response": "Sometimes books themselves trigger anxiety. Starting with light review might help reduce the fear."
+  },
+  {
+    "id": 225,
+    "instruction": "I feel depressed because my mock test marks keep dropping.",
+    "response": "Dropping scores can be discouraging. Using them as guidance rather than judgment may help you improve."
+  },
+  {
+    "id": 226,
+    "instruction": "I feel frustrated because I study but still score low.",
+    "response": "It’s frustrating when effort doesn’t show in marks. Adjusting your study style might help boost results."
+  },
+  {
+    "id": 227,
+    "instruction": "I feel hopeless about my exam preparation.",
+    "response": "Hopelessness often comes from stress. Breaking tasks into small, doable steps may help restore hope."
+  },
+  {
+    "id": 228,
+    "instruction": "I get nervous when I imagine entering the exam hall.",
+    "response": "Visualizing the exam hall can create anxiety. Practicing grounding techniques may help steady your nerves."
+  },
+  {
+    "id": 229,
+    "instruction": "I feel stressed because I can’t remember formulas consistently.",
+    "response": "Forgetting formulas is common under stress. Regular spaced repetition may help them stick better."
+  },
+  {
+    "id": 230,
+    "instruction": "I feel anxious because I haven’t finished even half of the syllabus.",
+    "response": "Incomplete syllabi can be stressful. Prioritizing essential topics may help focus your time."
+  },
+  {
+    "id": 231,
+    "instruction": "I feel drained thinking about long exam hours.",
+    "response": "Long sessions can feel tiring even in advance. Practicing with a timer may help build endurance."
+  },
+  {
+    "id": 232,
+    "instruction": "I’m scared I won’t be able to attempt difficult questions.",
+    "response": "Difficult questions worry many students. Practicing gradually might help build confidence."
+  },
+  {
+    "id": 233,
+    "instruction": "I feel lost because I don’t know how to revise effectively.",
+    "response": "Revision can feel confusing. Starting with simple summaries may help bring direction."
+  },
+  {
+    "id": 234,
+    "instruction": "I’m anxious because my study group is doing better than me.",
+    "response": "Study groups can create unintended pressure. Focusing on personal improvement may help you stay centered."
+  },
+  {
+    "id": 235,
+    "instruction": "I feel stressed when I look at the number of practice tests left.",
+    "response": "Having many tests can feel overwhelming. Taking them one at a time may help you feel less pressured."
+  },
+  {
+    "id": 236,
+    "instruction": "I feel scared that I’ll forget important concepts during the exam.",
+    "response": "Forgetting under stress is common. Repeating core concepts in small intervals may help strengthen recall."
+  },
+  {
+    "id": 237,
+    "instruction": "I feel unmotivated to study subjects I’m weak in.",
+    "response": "Weak subjects often feel discouraging. Tackling them one concept at a time might make them less overwhelming."
+  },
+  {
+    "id": 238,
+    "instruction": "I’m stressed because I don’t understand my teacher’s explanations.",
+    "response": "Not connecting with a teaching style is common. Exploring alternate explanations may help clarity."
+  },
+  {
+    "id": 239,
+    "instruction": "I feel like crying when I see my study timetable.",
+    "response": "Timetables can feel intimidating. Simplifying your plan may help relieve the emotional load."
+  },
+  {
+    "id": 240,
+    "instruction": "I get anxious thinking about how others will score.",
+    "response": "Others’ scores can create pressure, but your path is your own. Focusing on steady progress may ease the anxiety."
+  },
+  {
+    "id": 241,
+    "instruction": "I feel depressed because I’m learning slower than expected.",
+    "response": "Learning speed varies. Compassion toward yourself may help reduce the emotional strain."
+  },
+  {
+    "id": 242,
+    "instruction": "I feel stressed because I can’t revise everything on time.",
+    "response": "Not everything will be perfect, and that’s okay. Prioritizing key themes may help you feel more in control."
+  },
+  {
+    "id": 243,
+    "instruction": "I feel stuck because I don’t know what to study first.",
+    "response": "Starting can be the hardest part. Picking any small topic may help build initial momentum."
+  },
+  {
+    "id": 244,
+    "instruction": "I’m scared I won’t maintain good marks this year.",
+    "response": "Maintaining marks can feel stressful. Focusing on consistent effort may help lighten the pressure."
+  },
+  {
+    "id": 245,
+    "instruction": "I feel anxious because I can’t solve difficult problems.",
+    "response": "Difficult problems challenge most students. Practicing gradually may help build your confidence."
+  },
+  {
+    "id": 246,
+    "instruction": "I feel overwhelmed because I’m behind on my revision plan.",
+    "response": "Revision plans often shift. Adjusting them gently may help you catch up."
+  },
+  {
+    "id": 247,
+    "instruction": "I feel stressed about last-minute preparation.",
+    "response": "Last-minute prep is common. Prioritizing high-yield topics may help you stay focused."
+  },
+  {
+    "id": 248,
+    "instruction": "I feel discouraged because studying feels like a burden.",
+    "response": "Studying can feel heavy under pressure. Breaking tasks into smaller steps may make it more manageable."
+  },
+  {
+    "id": 249,
+    "instruction": "I feel anxious about writing long descriptive answers.",
+    "response": "Long answers can feel intimidating. Practicing them step by step may help build confidence."
+  },
+  {
+    "id": 250,
+    "instruction": "I’m stressed because my study environment is distracting.",
+    "response": "Distractions can disrupt focus. Adjusting your environment slightly might help improve concentration."
+  },
+  {
+    "id": 251,
+    "instruction": "I feel nervous when teachers ask questions unexpectedly.",
+    "response": "Unexpected questions can create anxiety. Practicing active listening might help you feel more prepared."
+  },
+  {
+    "id": 252,
+    "instruction": "I feel lost because I can’t keep up with the revision pace.",
+    "response": "It’s okay to go at your own pace. Slow, steady revision often leads to better understanding."
+  },
+  {
+    "id": 253,
+    "instruction": "I feel mentally drained because of continuous deadlines.",
+    "response": "Deadlines can drain your mental energy. Planning small breaks may help restore balance."
+  },
+  {
+    "id": 254,
+    "instruction": "I’m scared my exam performance will affect my future opportunities.",
+    "response": "It’s natural to worry about the future, but one exam rarely decides everything."
+  },
+  {
+    "id": 255,
+    "instruction": "I feel anxious because I don’t know how to manage my study time.",
+    "response": "Time management can be challenging. Starting with a simple schedule might help bring clarity."
+  },
+  {
+    "id": 256,
+    "instruction": "I feel stressed because my revision is very slow.",
+    "response": "Slow revision is still progress. Consistent effort matters more than speed."
+  },
+  {
+    "id": 257,
+    "instruction": "I get overwhelmed when my friends talk about their study progress.",
+    "response": "Hearing others’ progress can increase pressure. Focusing on your own routine may help reduce stress."
+  },
+  {
+    "id": 258,
+    "instruction": "I feel sad because I didn’t meet my preparation goals.",
+    "response": "Not meeting goals can feel disheartening. Adjusting them realistically may help create more comfort."
+  },
+  {
+    "id": 259,
+    "instruction": "I feel hopeless because exams are getting closer.",
+    "response": "As exams approach, stress rises naturally. Taking small steps forward might bring some relief."
+  },
+  {
+    "id": 260,
+    "instruction": "I feel scared because I’m not improving in subjects I’m weak in.",
+    "response": "Improving weak subjects takes time. Small, focused practice may help build confidence slowly."
+  },
+  {
+    "id": 261,
+    "instruction": "I get anxious when I look at previous years’ papers.",
+    "response": "Past papers can be intimidating. Viewing them as practice tools might help reduce pressure."
+  },
+  {
+    "id": 262,
+    "instruction": "I feel mentally blank when I start studying a new chapter.",
+    "response": "Blankness can signal overwhelm. A brief warm-up might help prepare your mind."
+  },
+  {
+    "id": 263,
+    "instruction": "I feel stressed because I don't remember information from earlier units.",
+    "response": "Forgetting older material is common. Quick reviews may help refresh your memory."
+  },
+  {
+    "id": 264,
+    "instruction": "I’m scared of the difficulty level of my board exams.",
+    "response": "Board exams often feel daunting. Preparing steadily can help you feel more ready."
+  },
+  {
+    "id": 265,
+    "instruction": "I feel depressed because I think I’m not good enough academically.",
+    "response": "Academic pressure can distort your sense of worth. Your value is not tied to scores alone."
+  },
+  {
+    "id": 266,
+    "instruction": "I feel anxious because I don’t understand certain core concepts.",
+    "response": "It’s okay to struggle. Seeking alternate explanations may help build understanding."
+  },
+  {
+    "id": 267,
+    "instruction": "I get stressed thinking about studying late at night.",
+    "response": "Late-night study can feel overwhelming. Planning lighter work at night may help reduce the load."
+  },
+  {
+    "id": 268,
+    "instruction": "I feel tired of continuous pressure from school and coaching.",
+    "response": "Multiple sources of pressure can wear you out. Finding small moments to pause might help."
+  },
+  {
+    "id": 269,
+    "instruction": "I’m scared I’ll lose marks because of silly mistakes.",
+    "response": "Silly mistakes happen under pressure. Practicing calmly may help reduce them."
+  },
+  {
+    "id": 270,
+    "instruction": "I feel guilty about taking too many breaks.",
+    "response": "Breaks are necessary for mental recovery. Balanced rest may help improve your productivity."
+  },
+  {
+    "id": 271,
+    "instruction": "I feel anxious hearing others talk about how tough the exam will be.",
+    "response": "Such discussions often amplify fear. Staying focused on your own preparation may help keep you grounded."
+  },
+  {
+    "id": 272,
+    "instruction": "I feel stressed because my understanding keeps fluctuating.",
+    "response": "Understanding can vary day by day. Accepting these shifts may reduce pressure."
+  },
+  {
+    "id": 273,
+    "instruction": "I’m scared I’ll forget formulas under exam stress.",
+    "response": "Stress affects memory, but spaced repetition can help steady your recall."
+  },
+  {
+    "id": 274,
+    "instruction": "I feel depressed because I’m not doing well in mock papers.",
+    "response": "Mock papers can be tough. Treating them as learning experiences might help reduce emotional strain."
+  },
+  {
+    "id": 275,
+    "instruction": "I feel anxious when I see the performance of top students.",
+    "response": "Top performers can unintentionally create pressure. Focusing on your efforts may help maintain balance."
+  },
+  {
+    "id": 276,
+    "instruction": "I feel overwhelmed because every chapter seems important.",
+    "response": "When everything feels important, prioritizing key areas can help bring clarity."
+  },
+  {
+    "id": 277,
+    "instruction": "I’m scared I’ll waste time during the exam thinking too much.",
+    "response": "Overthinking during exams is common. Practicing under timed conditions may help reduce this habit."
+  },
+  {
+    "id": 278,
+    "instruction": "I feel mentally exhausted from revising the same topics repeatedly.",
+    "response": "Repetition fatigue is normal. Trying a different revision method could refresh your approach."
+  },
+  {
+    "id": 279,
+    "instruction": "I feel anxious because I haven’t practiced writing enough.",
+    "response": "Writing practice builds confidence. Starting with short sessions might help ease you in."
+  },
+  {
+    "id": 280,
+    "instruction": "I feel anxious because I haven’t solved enough practice papers.",
+    "response": "Not completing enough papers can feel worrying. Starting with one paper at a time may help build your confidence."
+  },
+  {
+    "id": 281,
+    "instruction": "I’m scared that the exam questions will be completely unexpected.",
+    "response": "Unexpected questions are a common fear. Strengthening your core concepts may help you adapt more easily."
+  },
+  {
+    "id": 282,
+    "instruction": "I feel overwhelmed thinking about studying for long hours.",
+    "response": "Long study hours can feel heavy. Shorter, focused sessions might help reduce the sense of overwhelm."
+  },
+  {
+    "id": 283,
+    "instruction": "I feel depressed because exams are all anyone talks about.",
+    "response": "Constant exam talk can add pressure. Taking small breaks from such conversations may help you breathe."
+  },
+  {
+    "id": 284,
+    "instruction": "I get anxious whenever I try to study difficult subjects.",
+    "response": "Difficult subjects naturally trigger stress. Breaking them into small pieces may help ease the anxiety."
+  },
+  {
+    "id": 285,
+    "instruction": "I feel mentally blocked thinking about revision.",
+    "response": "Mental blocks are common when pressure rises. Starting with a light review might help ease you in."
+  },
+  {
+    "id": 286,
+    "instruction": "I’m stressed because I don’t know how to improve my weak chapters.",
+    "response": "Weak chapters require gentle practice. Revisiting them slowly might help build clarity."
+  },
+  {
+    "id": 287,
+    "instruction": "I feel scared because I haven't memorized everything properly.",
+    "response": "Perfect memorization is rare. Reinforcing key points may help strengthen your understanding."
+  },
+  {
+    "id": 288,
+    "instruction": "I feel hopeless because exams are getting too hard for me.",
+    "response": "Difficulty can feel discouraging. Progress often comes from consistent effort rather than sudden breakthroughs."
+  },
+  {
+    "id": 289,
+    "instruction": "I get anxious when I think about writing long essays.",
+    "response": "Essays can seem intimidating. Practicing in smaller sections may help you feel more prepared."
+  },
+  {
+    "id": 290,
+    "instruction": "I feel stressed because I’m unable to keep up with my study plan.",
+    "response": "Plans can shift with stress. Adjusting your schedule gently may help you stay on track."
+  },
+  {
+    "id": 291,
+    "instruction": "I feel depressed after talking to my friends about exams.",
+    "response": "Friends’ comments can create pressure unintentionally. Limiting such conversations might help protect your peace."
+  },
+  {
+    "id": 292,
+    "instruction": "I’m scared I’ll misinterpret questions during the exam.",
+    "response": "Misinterpretation is a common fear. Practicing careful reading may help reduce this worry."
+  },
+  {
+    "id": 293,
+    "instruction": "I feel overwhelmed when I think about how many subjects I have.",
+    "response": "Multiple subjects can feel heavy. Organizing them by priority may help reduce the load."
+  },
+  {
+    "id": 294,
+    "instruction": "I’m stressed because I don’t know where to begin revising.",
+    "response": "Starting from anywhere can help. Picking a familiar topic might build initial momentum."
+  },
+  {
+    "id": 295,
+    "instruction": "I feel anxious because my exam hall is far from home.",
+    "response": "Logistical worries can add stress. Planning your travel in advance may help you feel more secure."
+  },
+  {
+    "id": 296,
+    "instruction": "I get nervous thinking about the strict exam invigilators.",
+    "response": "Invigilators can seem intimidating, but their presence is routine. Focusing on your paper may help ease the nerves."
+  },
+  {
+    "id": 297,
+    "instruction": "I feel stressed because results will be declared soon.",
+    "response": "Result anticipation can be difficult. Reminding yourself that one result doesn’t define you may help soften the tension."
+  },
+  {
+    "id": 298,
+    "instruction": "I’m scared I won’t complete the revision in time.",
+    "response": "Time pressure is common. Prioritizing key areas may help bring structure to your revision."
+  },
+  {
+    "id": 299,
+    "instruction": "I feel mentally exhausted with the pressure to score well.",
+    "response": "High performance pressure drains energy. Taking small restorative breaks may help you cope better."
+  },
+  {
+    "id": 300,
+    "instruction": "I feel angry at myself for studying so slowly.",
+    "response": "Self-directed anger can grow under pressure. Being kinder to yourself may help improve your pace."
+  },
+  {
+    "id": 301,
+    "instruction": "I feel stressed because everyone expects me to top.",
+    "response": "High expectations can feel overwhelming. Focusing on personal learning rather than rankings may help ease your mind."
+  },
+  {
+    "id": 302,
+    "instruction": "I feel anxious because I’m unable to follow my study routine.",
+    "response": "Routines can falter under stress. Restarting with small steps might help rebuild consistency."
+  },
+  {
+    "id": 303,
+    "instruction": "I’m scared my exam paper will be harder than expected.",
+    "response": "It’s natural to worry about difficulty. Trusting your preparation may help steady your nerves."
+  },
+  {
+    "id": 304,
+    "instruction": "I feel overwhelmed because my coaching assignments are piling up.",
+    "response": "Piled-up tasks can feel heavy. Prioritizing the most important ones may help reduce the load."
+  },
+  {
+    "id": 305,
+    "instruction": "I get stressed thinking about back papers I need to clear.",
+    "response": "Back papers can create additional pressure. Tackling them gradually may help reduce anxiety."
+  },
+  {
+    "id": 306,
+    "instruction": "I feel depressed because I’m not able to revise efficiently.",
+    "response": "Efficiency drops under stress. Small, focused study bursts might help improve clarity."
+  },
+  {
+    "id": 307,
+    "instruction": "I feel anxious because I’m scared I’ll lose marks in the easy questions.",
+    "response": "It’s common to worry about mistakes. Calm practice may help you feel more confident."
+  },
+  {
+    "id": 308,
+    "instruction": "I’m stressed because I can’t understand the exam format.",
+    "response": "Exam formats can be confusing. Reviewing sample papers might help create clarity."
+  },
+  {
+    "id": 309,
+    "instruction": "I feel exhausted thinking about the number of revisions needed.",
+    "response": "Multiple revisions can feel tiring. Spreading them out might help reduce fatigue."
+  },
+  {
+    "id": 310,
+    "instruction": "I feel guilty for wasting time instead of studying.",
+    "response": "Time slips happen. Refocusing gently on your studies may help you move forward."
+  },
+  {
+    "id": 311,
+    "instruction": "I feel anxious thinking about attending the exam alone.",
+    "response": "Exam-day isolation can feel daunting. Preparing your belongings ahead of time may help create comfort."
+  },
+  {
+    "id": 312,
+    "instruction": "I’m stressed because I can’t remember definitions clearly.",
+    "response": "Definitions can be tricky. Reviewing them in intervals may help improve recall."
+  },
+  {
+    "id": 313,
+    "instruction": "I feel depressed thinking about my continuous poor performance.",
+    "response": "Repeated low performance can feel discouraging, but each step forward counts."
+  },
+  {
+    "id": 314,
+    "instruction": "I get anxious when I imagine the exam pressure.",
+    "response": "Imagined pressure often feels bigger than the real thing. Practicing calm breathing might help reduce the tension."
+  },
+  {
+    "id": 315,
+    "instruction": "I feel stressed because I can’t organize my study material.",
+    "response": "Disorganization adds to stress. Sorting materials into simple categories may help bring order."
+  },
+  {
+    "id": 316,
+    "instruction": "I’m scared I’ll freeze when I see a tough question.",
+    "response": "Freezing is common. Pausing briefly and focusing on what you do know may help restart your thinking."
+  },
+  {
+    "id": 317,
+    "instruction": "I feel mentally tired from trying to understand tough concepts.",
+    "response": "Tough concepts require time. Pausing and returning later may help improve clarity."
+  },
+  {
+    "id": 318,
+    "instruction": "I’m stressed because I’ve been studying but not improving much.",
+    "response": "Improvement can be slow. Small, consistent changes might help show progress over time."
+  },
+  {
+    "id": 319,
+    "instruction": "I feel hopeless because exam pressure keeps increasing.",
+    "response": "Pressure often builds as exams approach. Taking breaks may help reset your perspective."
+  },
+  {
+    "id": 320,
+    "instruction": "I feel anxious because I’m scared of forgetting simple things.",
+    "response": "Simple things are easy to forget under stress. Reviewing basics may help build confidence."
+  },
+  {
+    "id": 321,
+    "instruction": "I feel overwhelmed thinking about attending multiple exams in one week.",
+    "response": "Multiple exams can be exhausting. Planning light rest between them may help manage the load."
+  },
+  {
+    "id": 322,
+    "instruction": "I get stressed worrying about finishing all the questions in time.",
+    "response": "Time pressure is a common concern. Practice with timed tests may help you pace yourself better."
+  },
+  {
+    "id": 323,
+    "instruction": "I feel depressed because studying feels meaningless right now.",
+    "response": "Meaning can fade during stress. Reconnecting with your long-term goals might help restore direction."
+  },
+  {
+    "id": 324,
+    "instruction": "I feel anxious because I’m not confident about my strengths.",
+    "response": "Confidence can drop during exam season. Recognizing even small wins might help rebuild it."
+  },
+  {
+    "id": 325,
+    "instruction": "I feel scared that I won’t understand anything on the exam day.",
+    "response": "Exam day anxiety can cloud your thinking. Trusting your preparation may help calm your mind."
+  },
+  {
+    "id": 326,
+    "instruction": "I’m stressed thinking about all the expectations from school and family.",
+    "response": "Expectations can feel intense. Focusing on what you can control may help manage the load."
+  },
+  {
+    "id": 327,
+    "instruction": "I feel overwhelmed because my study plan keeps failing.",
+    "response": "Plans often need adjustment. Simplifying your schedule might make it easier to follow."
+  },
+  {
+    "id": 328,
+    "instruction": "I feel anxious when I listen to others discussing tough exam experiences.",
+    "response": "Hearing negative stories can increase fear. Limiting such conversations may help protect your peace."
+  },
+  {
+    "id": 329,
+    "instruction": "I feel depressed because I haven’t been scoring well despite trying.",
+    "response": "Effort without results can feel discouraging. Small adjustments in technique may create improvement."
+  },
+  {
+    "id": 330,
+    "instruction": "I feel stressed because every subject feels equally difficult.",
+    "response": "When everything feels tough, prioritizing smaller topics may help you begin."
+  },
+  {
+    "id": 331,
+    "instruction": "I feel nervous thinking about presenting my answer sheet to the examiner.",
+    "response": "It’s natural to feel nervous about evaluation. Trusting your honest effort may help reduce the anxiety."
+  },
+  {
+    "id": 332,
+    "instruction": "I’m anxious because I can’t solve numerical problems quickly.",
+    "response": "Numerical speed improves with practice. Starting slow may help you build accuracy first."
+  },
+  {
+    "id": 333,
+    "instruction": "I feel overwhelmed thinking about covering multiple books.",
+    "response": "Multiple books can feel heavy. Summaries and short notes may help lighten the workload."
+  },
+  {
+    "id": 334,
+    "instruction": "I’m scared of forgetting key terms during the exam.",
+    "response": "Key terms can slip the mind under stress. Reviewing them regularly may help reinforce your memory."
+  },
+  {
+    "id": 335,
+    "instruction": "I feel mentally drained after every mock exam.",
+    "response": "Mock exams can be intense. Giving yourself a break afterward may help restore energy."
+  },
+  {
+    "id": 336,
+    "instruction": "I’m stressed because I don’t know which topics are most important.",
+    "response": "Identifying key topics can be challenging. Checking previous papers may help clarify patterns."
+  },
+  {
+    "id": 337,
+    "instruction": "I feel anxious because revision feels endless.",
+    "response": "Endless revision can be tiring. Short, focused sessions might help reduce the strain."
+  },
+  {
+    "id": 338,
+    "instruction": "I feel scared thinking about entering the exam center.",
+    "response": "Exam centers can feel intimidating. Visualizing a calm experience may help ease the fear."
+  },
+  {
+    "id": 339,
+    "instruction": "I’m stressed because studying is taking too long.",
+    "response": "Learning pace varies. Taking short breaks may help maintain your focus."
+  },
+  {
+    "id": 340,
+    "instruction": "I feel anxious knowing results will come out soon.",
+    "response": "Waiting for results can be nerve-racking. Focusing on activities you enjoy may help ease the tension."
+  },
+  {
+    "id": 341,
+    "instruction": "I get stressed thinking about the scoring pattern.",
+    "response": "Scoring patterns can be confusing. Understanding them gradually may help you feel more secure."
+  },
+  {
+    "id": 342,
+    "instruction": "I feel depressed because I haven't made the progress I hoped for.",
+    "response": "Progress sometimes unfolds slower than expected. Acknowledging small improvements may help encourage you."
+  },
+  {
+    "id": 343,
+    "instruction": "I’m anxious because I don't know how to deal with tricky questions.",
+    "response": "Tricky questions challenge everyone. Breaking them down may help you approach them calmly."
+  },
+  {
+    "id": 344,
+    "instruction": "I feel overwhelmed thinking about last-minute revisions.",
+    "response": "Last-minute revision can feel stressful. Focusing on key concepts may help ease the burden."
+  },
+  {
+    "id": 345,
+    "instruction": "I feel stressed because I’m scared I’ll forget what I practiced yesterday.",
+    "response": "Memory fluctuates under stress. Quick daily reviews may help strengthen recall."
+  },
+  {
+    "id": 346,
+    "instruction": "I feel anxious thinking about oral exams.",
+    "response": "Oral exams can feel intimidating. Practicing out loud may help improve your comfort level."
+  },
+  {
+    "id": 347,
+    "instruction": "I’m stressed because I don’t understand the marking scheme.",
+    "response": "Marking schemes can be unclear. Reviewing official guidelines might help create clarity."
+  },
+  {
+    "id": 348,
+    "instruction": "I feel scared that I will repeat past mistakes.",
+    "response": "Fear of repeating mistakes is common. Reviewing those areas may help build your confidence."
+  },
+  {
+    "id": 349,
+    "instruction": "I feel mentally exhausted from trying to catch up with my classmates.",
+    "response": "Catching up can be draining. Focusing on your own steady progress may help relieve the pressure."
+  }
+]
