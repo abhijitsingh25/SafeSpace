@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        run: uv python install 3.13
+
+      - name: Install dependencies
+        # No --extra local: CI must prove the app works without torch, which is exactly
+        # the constraint the serverless bundle runs under.
+        run: uv sync --extra dev
+
+      - name: Lint
+        run: uv run ruff check .
+
+      - name: Format check
+        run: uv run ruff format --check .
+
+      - name: Tests
+        run: uv run pytest -v
+
+      - name: Safety eval
+        # Called out separately so a crisis-detection regression is unmissable in the
+        # PR checks rather than buried in the overall test count.
+        run: uv run pytest tests/test_safety.py -v --tb=short
+
+  bundle-size:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install production dependencies only
+        run: pip install --target /tmp/bundle -r requirements.txt
+
+      - name: Check the bundle fits Vercel's 250MB limit
+        run: |
+          SIZE_MB=$(du -sm /tmp/bundle | cut -f1)
+          echo "Production bundle: ${SIZE_MB}MB (Vercel limit: 250MB)"
+          if [ "$SIZE_MB" -gt 250 ]; then
+            echo "::error::Bundle is ${SIZE_MB}MB, over Vercel's 250MB limit."
+            echo "Something heavy (torch? faiss?) has leaked into requirements.txt."
+            exit 1
+          fi

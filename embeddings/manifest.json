@@ -1,0 +1,10 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dim": 384,
+  "count": 350,
+  "normalized": true,
+  "vectors_sha256_prefix": "cae7a45a7834eee7",
+  "built_at": "2026-09-20",
+  "source": "data/mental_health_exams.jsonl",
+  "_comment": "Query embeddings MUST come from embedding_model. Mixing vector spaces returns plausible but meaningless results."
+}

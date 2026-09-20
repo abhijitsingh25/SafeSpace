@@ -1,0 +1,52 @@
+{
+  "_comment": "Crisis lines surfaced verbatim to users. Verify these before every release; numbers change. Never let the model paraphrase or invent entries here.",
+  "_last_verified": "2026-09-20",
+  "regions": {
+    "US": {
+      "name": "United States",
+      "lines": [
+        {"name": "988 Suicide & Crisis Lifeline", "contact": "Call or text 988", "hours": "24/7"},
+        {"name": "Crisis Text Line", "contact": "Text HOME to 741741", "hours": "24/7"},
+        {"name": "Emergency services", "contact": "911", "hours": "24/7"}
+      ]
+    },
+    "UK": {
+      "name": "United Kingdom",
+      "lines": [
+        {"name": "Samaritans", "contact": "Call 116 123", "hours": "24/7"},
+        {"name": "Shout", "contact": "Text SHOUT to 85258", "hours": "24/7"},
+        {"name": "Emergency services", "contact": "999", "hours": "24/7"}
+      ]
+    },
+    "IN": {
+      "name": "India",
+      "lines": [
+        {"name": "Tele-MANAS (Govt. of India)", "contact": "Call 14416 or 1-800-891-4416", "hours": "24/7"},
+        {"name": "AASRA", "contact": "Call +91-9820466726", "hours": "24/7"},
+        {"name": "Emergency services", "contact": "112", "hours": "24/7"}
+      ]
+    },
+    "CA": {
+      "name": "Canada",
+      "lines": [
+        {"name": "9-8-8 Suicide Crisis Helpline", "contact": "Call or text 988", "hours": "24/7"},
+        {"name": "Emergency services", "contact": "911", "hours": "24/7"}
+      ]
+    },
+    "AU": {
+      "name": "Australia",
+      "lines": [
+        {"name": "Lifeline Australia", "contact": "Call 13 11 14", "hours": "24/7"},
+        {"name": "Emergency services", "contact": "000", "hours": "24/7"}
+      ]
+    },
+    "INTL": {
+      "name": "International",
+      "lines": [
+        {"name": "Find a helpline in your country", "contact": "https://findahelpline.com", "hours": "24/7"},
+        {"name": "International Association for Suicide Prevention", "contact": "https://www.iasp.info/resources/Crisis_Centres/", "hours": "Varies"},
+        {"name": "Your local emergency number", "contact": "Call your country's emergency services", "hours": "24/7"}
+      ]
+    }
+  }
+}
