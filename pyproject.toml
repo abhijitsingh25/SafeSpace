@@ -1,21 +1,50 @@
 [project]
 name = "safespace"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.2.0"
+description = "SafeSpace - an agentic mental health support assistant with deterministic crisis guardrails"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "datasets>=4.4.1",
     "fastapi>=0.120.4",
-    "langchain>=1.0.3",
+    "httpx>=0.28.1",
     "langchain-core>=1.0.2",
     "langchain-groq>=1.0.0",
     "langgraph>=1.0.2",
-    "ollama>=0.6.0",
+    "numpy>=2.1.0",
     "pydantic>=2.12.3",
-    "requests>=2.32.5",
-    "streamlit>=1.51.0",
-    "transformers>=4.57.1",
+    "pydantic-settings>=2.6.0",
+    "structlog>=24.4.0",
     "twilio>=9.8.5",
     "uvicorn>=0.38.0",
 ]
+
+[project.optional-dependencies]
+# Local-only extras. NEVER installed into the deployed serverless bundle:
+# sentence-transformers pulls torch (~2GB) and blows past Vercel's 250MB limit.
+local = [
+    "sentence-transformers>=3.3.0",
+    "ollama>=0.6.0",
+    "streamlit>=1.51.0",
+    "requests>=2.32.5",
+]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.24.0",
+    "ruff>=0.8.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["B008"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.uv]
+default-groups = []
