@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SafeSpace</title>
+<meta name="description" content="A place to think out loud." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💬</text></svg>" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <h1>SafeSpace</h1>
+    <div class="masthead-actions">
+      <select id="region" aria-label="Your region">
+        <option value="INTL">International</option>
+        <option value="US">United States</option>
+        <option value="UK">United Kingdom</option>
+        <option value="IN">India</option>
+        <option value="CA">Canada</option>
+        <option value="AU">Australia</option>
+      </select>
+      <button id="help-btn" class="ghost" type="button">Need help now</button>
+      <button id="reset-btn" class="ghost" type="button">New chat</button>
+    </div>
+  </div>
+</header>
+
+<div class="wrap disclaimer" role="note">
+  SafeSpace is an AI support tool, not a therapist. It does not provide medical advice,
+  diagnosis, or treatment. In an emergency, contact your local emergency services.
+</div>
+
+<main class="wrap">
+  <div id="messages" class="messages" role="log" aria-live="polite" aria-atomic="false">
+    <div class="msg assistant">
+      <div class="bubble">
+        <p>Hello. I'm here to listen — no rush, and nothing you say here is too small.</p>
+        <p>What's on your mind today?</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<form id="composer" class="composer" autocomplete="off">
+  <div class="wrap composer-inner">
+    <label class="sr-only" for="input">Your message</label>
+    <textarea id="input" rows="1" placeholder="What's on your mind today?" maxlength="4000" required></textarea>
+    <button id="send" type="submit">Send</button>
+  </div>
+</form>
+
+<dialog id="help-dialog">
+  <h2>Reach a person right now</h2>
+  <div id="help-body">Loading…</div>
+  <form method="dialog"><button class="primary" type="submit">Close</button></form>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
