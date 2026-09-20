@@ -88,12 +88,13 @@ own rather than breaking the app:
 | If this is missing | What happens |
 |---|---|
 | Ollama not installed (`LLM_PROVIDER=ollama`) | Every reply is the fallback message. **Set `LLM_PROVIDER=groq` instead.** |
-| `sentence-transformers` not installed (`EMBEDDING_PROVIDER=local`) | Exam questions get general support instead of corpus-grounded answers |
-| `HUGGINGFACE_API_KEY` unset (`EMBEDDING_PROVIDER=huggingface`) | Same — falls back to general support |
+| `sentence-transformers` not installed (`EMBEDDING_PROVIDER=local`) | Retrieval falls back to BM25 — corpus still works, weaker on paraphrase |
+| `HUGGINGFACE_API_KEY` unset (`EMBEDDING_PROVIDER=huggingface`) | Same BM25 fallback |
 | `SERPAPI_API_KEY` unset | Locator explains how to find a therapist instead of searching |
 | Twilio unset | Emergency calls stay disabled; **hotlines are still always shown** |
 
-The crisis path, coping exercises, memory, and the chat UI need no keys at all.
+The crisis path, coping exercises, exam retrieval, memory, and the chat UI need no keys
+at all.
 
 ### Running MedGemma locally
 
@@ -136,7 +137,8 @@ backend/
   safety.py             Risk classification + crisis copy      <- read this one
   agent.py              LangGraph agent, routing policy, memory
   tools.py              The five tools
-  retrieval.py          numpy cosine search over the corpus
+  retrieval.py          numpy cosine search, with a BM25 fallback
+  lexical.py            BM25 — keeps the corpus usable with no model or key
   providers/
     llm.py              Ollama (local) | Groq (prod)
     embeddings.py       sentence-transformers (local) | HF Inference API (prod)
@@ -179,6 +181,13 @@ locally is `GROQ_API_KEY`.
 | `DEFAULT_CRISIS_REGION` | `INTL` | `US`, `UK`, `IN`, `CA`, `AU` also available |
 
 ---
+
+## Demo and deployment
+
+- **[DEMO.md](DEMO.md)** — a 5-minute runbook: what to type, in what order, and what to
+  point at.
+- **[DEPLOY.md](DEPLOY.md)** — step-by-step Vercel deploy, every environment variable,
+  and the two limitations to understand first.
 
 ## Deploying to Vercel
 
