@@ -18,6 +18,7 @@ from pathlib import Path
 import numpy as np
 import structlog
 
+from backend.lexical import BM25Index
 from backend.providers.embeddings import get_embedder
 from backend.settings import get_settings
 
@@ -120,17 +121,58 @@ def load_index(force: bool = False) -> CorpusIndex:
 
 def set_index(index: CorpusIndex | None) -> None:
     """Test seam."""
-    global _index
+    global _index, _bm25
     _index = index
+    _bm25 = None
+
+
+_bm25: BM25Index | None = None
+
+
+def load_bm25() -> BM25Index:
+    """Lexical index over the same metadata. No model, no key, no network."""
+    global _bm25
+    if _bm25 is None:
+        index = load_index()
+        _bm25 = BM25Index([f"{row['instruction']} {row['response']}" for row in index.meta])
+        log.info("bm25_index_built", documents=len(_bm25))
+    return _bm25
+
+
+def retrieve_lexical(query: str, k: int | None = None) -> list[RetrievedPassage]:
+    settings = get_settings()
+    k = k or settings.retrieval_top_k
+    index = load_index()
+
+    hits = load_bm25().search(query, k)
+    return [
+        RetrievedPassage(
+            score=score,
+            instruction=index.meta[i]["instruction"],
+            response=index.meta[i]["response"],
+        )
+        for i, score in hits
+        if score >= settings.lexical_min_score
+    ]
 
 
 def retrieve(query: str, k: int | None = None) -> list[RetrievedPassage]:
-    """Embed a query and return the best-matching passages above the score floor."""
+    """Return the best-matching passages for a query.
+
+    Prefers embeddings, which handle paraphrase. Falls back to BM25 when no embedding
+    provider is configured, so a fresh clone still gets grounded answers rather than
+    silently losing the corpus.
+    """
     settings = get_settings()
     k = k or settings.retrieval_top_k
 
     index = load_index()
-    query_vector = get_embedder().embed([query])[0]
+    try:
+        query_vector = get_embedder().embed([query])[0]
+    except Exception as exc:
+        log.info("embedding_unavailable_using_lexical", error=str(exc)[:120])
+        return retrieve_lexical(query, k)
+
     passages = index.search(query_vector, k)
 
     kept = [p for p in passages if p.score >= settings.retrieval_min_score]
@@ -149,7 +191,7 @@ def format_passages(passages: list[RetrievedPassage]) -> str:
     if not passages:
         return ""
     return "\n\n".join(
-        f"Context {i + 1} (similarity {p.score:.3f}):\nSituation: {p.instruction}\n"
+        f"Context {i + 1} (relevance {p.score:.2f}):\nSituation: {p.instruction}\n"
         f"Helpful response: {p.response}"
         for i, p in enumerate(passages)
     )

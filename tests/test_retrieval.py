@@ -101,7 +101,7 @@ def test_format_passages_numbers_and_scores(tiny_corpus):
     query = np.eye(1, 384, dtype=np.float32)[0]
     text = format_passages(tiny_corpus.search(query, k=2))
     assert "Context 1" in text and "Context 2" in text
-    assert "similarity" in text
+    assert "relevance" in text
 
 
 def test_index_is_cached_between_calls(real_corpus):

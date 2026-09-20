@@ -61,6 +61,9 @@ class Settings(BaseSettings):
     # ---- Retrieval ----------------------------------------------------------
     retrieval_top_k: int = 5
     retrieval_min_score: float = 0.25
+    # BM25 scores are unbounded and not comparable to cosine similarity,
+    # so the lexical fallback carries its own floor.
+    lexical_min_score: float = 1.0
 
     # ---- Safety -------------------------------------------------------------
     # Off by default: placing real phone calls should be a deliberate opt-in, never
